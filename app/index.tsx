@@ -1,12 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
 
-export default function Page() {
+export default function IndexScreen() {
   return (
     <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>Hello World</Text>
-        <Text style={styles.subtitle}>This is the first page of your app.</Text>
-      </View>
+      <Text style={styles.title}>Bienvenido a SoulDream Mobile</Text>
+      <Text style={styles.subtitle}>Esta es la pantalla de inicio (index.tsx).</Text>
     </View>
   );
 }
@@ -15,20 +14,19 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    padding: 24,
-  },
-  main: {
-    flex: 1,
     justifyContent: 'center',
-    maxWidth: 960,
-    marginHorizontal: 'auto',
+    padding: 24,
+    backgroundColor: '#fff', // Puedes ajustar el fondo
   },
   title: {
-    fontSize: 64,
+    fontSize: 28, // Ajustado para un look más de app
     fontWeight: 'bold',
+    marginBottom: 8,
+    textAlign: 'center',
   },
   subtitle: {
-    fontSize: 36,
+    fontSize: 18, // Ajustado
     color: '#38434D',
+    textAlign: 'center',
   },
 });
