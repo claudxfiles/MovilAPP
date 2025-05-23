@@ -1,4 +1,12 @@
 {
+  "expo": {
+    "name": "SoulDreamMobile",
+    "slug": "SoulDreamMobile",
+    "scheme": "souldreamapp",
+    "web": {
+      "favicon": "./images/favicon/favicon-for-public/web-app-manifest-192x192.png"
+    }
+  },
   "name": "SoulDreamMobile",
-  "slug": "SoulDreamMobile"
+  "scheme": "souldreamapp"
 }
